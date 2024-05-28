@@ -134,47 +134,50 @@
 			</div>
 			<!-- Project Details: Project#1 -->
 			<div class="text-left mb-4">
-				<p style="font-weight: bold;border-bottom: 2px solid #000; display: inline-block;">Concentrix Catalyst
-					(Prokarma Softech Private Limited ): </p>
+				<p style="font-weight: bold;border-bottom: 2px solid #000; display: inline-block;">
+					Concentrix Catalyst
+					(Prokarma Softech Private Limited ):
+				</p>
 				<!-- Create a gap with one line -->
 				<br>
 				<p style="font-weight: bold;border-bottom: 2px solid #000; display: inline-block;">Project Details: </p>
 				<br>
 				<p style="font-weight: bold;border-bottom: 2px solid #000; display: inline-block;">Project#1 </p>
-				<p style="font-weight: bold;margin: 0;padding: 0;"><span style="font-size: 1.2em;">Project Name:</span>
-					Ryder Transport (Order Import & Ryder Connect Supply Chain)</p>
-				<p style="font-weight: bold;margin: 0;padding: 0;"><span style="font-size: 1.2em;">Client:</span> Ryder
+				<p style="margin: 0;padding: 0;">
+					<span style="font-weight: bold; font-size: 1.2em;">Project Name:</span> Ryder Transport (Order Import & Ryder Connect Supply Chain)
 				</p>
-				<p style="font-weight: bold;margin: 0.5;padding: 0;"><span style="font-size: 1.2em;">Role:</span>
-					Product Specialist, Enhancement, Development, Maintenance, Production Support</p>
-
+				<p style="margin: 0;padding: 0;">
+					<span style="font-weight: bold; font-size: 1.2em;">Project Start:</span> 25 January 2022
+				</p>
+				<p style="margin: 0;padding: 0;">
+					<span style="font-weight: bold; font-size: 1.2em;">Project End:</span> 03 May 2022
+				</p>
+				<p style="margin: 0;padding: 0;">
+					<span style="font-weight: bold; font-size: 1.2em;">Client:</span> Ryder
+				</p>
+				<p style="margin: 0.5; padding: 0;">
+					<span style="font-weight: bold; font-size: 1.2em;">Applications:</span> Order Import, Carrier API and RyderShift
+				</p>
 				<p style="font-weight: bold;border-bottom: 2px; display: inline-block;">Summary: </p>
-
-				<p>Order import is an Azure service fabric application that consumes the created order by the customer
-					and
-					transforms it into business to process the order with successful validation and push it to the next
-					queue. this
-					application will act like a transformation layer i.e. transforming the abstract order creation to
-					the business order
-					and also can query the results of the order creation and tracking details by orderld, tracked,
-					customerld etc.
+				<p>
+					Create/update/cancel an order for the multiple carriers(customers), which includes milestone and trace events, and create an order transformation that maps the JSON fields from the Ryder API request order to the RLM order response, deals with the service bus message queuing process, receives a queue message from the inbound queue, processes the transformation with the level of validation, pushes it to the outbound queue, then saves the message payload (JSON) into the Azure Cosmos Database and integrates timesheets from the TimeCo to Quinyx application.
 				</p>
 
 				<p style="font-weight: bold;border-bottom: 2px; display: inline-block;">Responsibilities: </p>
 				<ul>
-					<li>Requirement Gathering & Analysis.</li>
-					<li>Create Technical Specification document for API implementation and work along with teams and
-						Estimation of the planned sprint.</li>
-					<li>Create and develop Restful web API in Azure Service Fabric.</li>
-					<li>Creating OAS Spec and Policies with Azure API Management.</li>
-					<li>Monitoring DataDog and Azure Appinsights for logs checking.</li>
-					<li>Written Unit Test Cases by using xUnit.</li>
-					<li>Written SQL Queries & Creating containers in Cosmos Db.</li>
+					<li>Design and code development and implementation of new business enhancements in the three different applications.</li>
+					<li>Analyze requirements and analysis in e-commerce business.</li>
+					<li>Implemented API management for request body validation, routing, versioning, header validation, authentication, etc.</li>
+					<li>Provide on-going support for the development, production release, change request, troubleshooting, and support.</li>
+					<li>Create unit test cases, code reviews, change request documentation, support QA testing, and support production deployment.</li>
+					<li>Create design documents for integrations on the Azure wiki page, mapping documents, architecture diagrams, and flow diagrams.</li>
+					<li>Worked on the punch integration application, get the daily punches of an employee from the TimeCo punch application to the other application, Quinyx (data metrics and reports), using logic apps on a daily basis for the incremental and monthly basis for the reconciliation.</li>
 				</ul>
 
 				<p style="font-weight: bold;border-bottom: 2px; display: inline-block;">Environment: </p>
-				<p>C#, .Net Core Web API, Azure Service Fabric, Azure API Management, Azure Service Bus, Cosmos Db,
-					DataDog, Azure Appinsights.</p>
+				<p>
+					C#, .Net Core Web API, Azure Service Fabric, Azure API Management, Azure Service Bus, Cosmos Db, DataDog, Azure Appinsights.
+				</p>
 			</div>
 			<div class="text-left mb-4">
 				<p style="font-weight: bold;border-bottom: 2px solid #000; display: inline-block;">
